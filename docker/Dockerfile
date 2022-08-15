@@ -12,7 +12,7 @@ ENV CATKIN_WS=/root/catkin_ws
 RUN mkdir -p $CATKIN_WS/src
 WORKDIR $CATKIN_WS/src
 
-RUN git clone git@github.com:ipa-rar/laserscan_aggregator.git
+RUN git clone https://github.com/ipa-rar/laserscan_aggregator.git
 
 WORKDIR $CATKIN_WS
 RUN source /opt/ros/noetic/setup.bash \

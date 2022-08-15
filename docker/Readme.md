@@ -3,7 +3,7 @@
 ## How to build an image
 
 ```
-docker build -t heatmap_gen:latest https://raw.githubusercontent.com/ipa-rar/laserscan_aggregator/main/docker/Dockerfile
+docker build -t laserscan_aggregator:latest https://raw.githubusercontent.com/ipa-rar/laserscan_aggregator/main/docker/Dockerfile
 ```
 
 ### Using the docker image
