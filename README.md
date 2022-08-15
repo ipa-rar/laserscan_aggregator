@@ -1,6 +1,5 @@
 # Laser Scan Aggregator
 This package aggregates the scan data from 2D laser scanners. This package is tested with up to 10 laser scanners.
-![](./docs/out.png)
 
 ## Usage
 ```
