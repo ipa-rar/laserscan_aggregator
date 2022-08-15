@@ -1,0 +1,34 @@
+observation_sources: scan_1 scan_2 scan_3 scan_4 scan_5 scan_6 scan_7 scan_8 scan_9 scan_10
+scan_1: {sensor_frame: node_1, data_type: LaserScan, topic: /node_1/scan, marking: true, clearing: true, inf_is_valid: true,
+       expected_update_rate: 1, max_obstacle_height: 1.0, min_obstacle_height: 0.0, obstacle_range: 10.0, raytrace_range: 10.0}
+
+scan_2: {sensor_frame: node_2, data_type: LaserScan, topic: /node_2/scan, marking: true, clearing: true, inf_is_valid: true,
+       expected_update_rate: 1, max_obstacle_height: 1.0, min_obstacle_height: 0.0, obstacle_range: 10.0, raytrace_range: 10.0}
+
+scan_3: {sensor_frame: node_3, data_type: LaserScan, topic: /node_3/scan, marking: true, clearing: true, inf_is_valid: true,
+       expected_update_rate: 1, max_obstacle_height: 1.0, min_obstacle_height: 0.0, obstacle_range: 10.0, raytrace_range: 10.0}
+
+scan_4: {sensor_frame: node_4, data_type: LaserScan, topic: /node_4/scan, marking: true, clearing: true, inf_is_valid: true,
+       expected_update_rate: 1, max_obstacle_height: 1.0, min_obstacle_height: 0.0, obstacle_range: 10.0, raytrace_range: 10.0}
+
+scan_5: {sensor_frame: node_5, data_type: LaserScan, topic: /node_5/scan, marking: true, clearing: true, inf_is_valid: true,
+       expected_update_rate: 1, max_obstacle_height: 1.0, min_obstacle_height: 0.0, obstacle_range: 10.0, raytrace_range: 10.0}
+
+scan_6: {sensor_frame: node_6, data_type: LaserScan, topic: /node_6/scan, marking: true, clearing: true, inf_is_valid: true,
+       expected_update_rate: 1, max_obstacle_height: 1.0, min_obstacle_height: 0.0, obstacle_range: 10.0, raytrace_range: 10.0}
+
+scan_7: {sensor_frame: node_7, data_type: LaserScan, topic: /node_7/scan, marking: true, clearing: true, inf_is_valid: true,
+       expected_update_rate: 1, max_obstacle_height: 1.0, min_obstacle_height: 0.0, obstacle_range: 10.0, raytrace_range: 10.0}
+
+scan_8: {sensor_frame: node_8, data_type: LaserScan, topic: /node_8/scan, marking: true, clearing: true, inf_is_valid: true,
+       expected_update_rate: 1, max_obstacle_height: 1.0, min_obstacle_height: 0.0, obstacle_range: 10.0, raytrace_range: 10.0}
+
+scan_9: {sensor_frame: node_9, data_type: LaserScan, topic: /node_9/scan, marking: true, clearing: true, inf_is_valid: true,
+       expected_update_rate: 1, max_obstacle_height: 1.0, min_obstacle_height: 0.0, obstacle_range: 10.0, raytrace_range: 10.0}
+
+scan_10: {sensor_frame: node_10, data_type: LaserScan, topic: /node_10/scan, marking: true, clearing: true, inf_is_valid: true,
+       expected_update_rate: 1, max_obstacle_height: 1.0, min_obstacle_height: 0.0, obstacle_range: 10.0, raytrace_range: 10.0}
+
+plugins:
+    - {name: static_map,       type: "costmap_2d::StaticLayer"}
+    - {name: obstacles,        type: "costmap_2d::ObstacleLayer"}
